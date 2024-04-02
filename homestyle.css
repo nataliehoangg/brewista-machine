@@ -1,0 +1,35 @@
+body {
+    background-color: #b4eeffe8;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+header {
+    background-color: #ffffff8a;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: rgb(82, 82, 82);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+        nav a:hover {
+            background-color: #adadad;
+        }
