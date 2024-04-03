@@ -1,8 +1,9 @@
 body {
-    background-color: #b4eeffe8;
+    background-color: #b4eeffb6;
     font-family: 'Lexend Exa', sans-serif;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 header {
@@ -42,7 +43,9 @@ footer {
     color: #525252;
     text-align: center;
     padding: 10px 0;
-    position:fixed;
+    position:absolute;
     bottom: 0;
     width: 100%;
 }
+
+
