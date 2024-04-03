@@ -20,6 +20,11 @@ header {
     line-height: 1;
 }
 
+.title {
+    font-size: 72px;
+    font-weight: 900;
+  }
+
 
 nav {
     display: flex;
