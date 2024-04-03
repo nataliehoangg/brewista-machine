@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #ffffff8a;
-    color: rgb(82, 82, 82);
+    color: #525252;
     padding: 10px 0px;
     text-align: center;
     position: fixed;
@@ -39,7 +39,7 @@ nav a:hover {
 
 footer {
     background-color: #ffffff90;
-    color: white;
+    color: #525252;
     text-align: center;
     padding: 10px 0;
     position:fixed;
