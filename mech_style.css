@@ -46,3 +46,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.container {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: space-between; /* Space items evenly along the main axis */
+}
+
+.item {
+    width: 30%; /* Set the width of each item */
+}
+
+.image img {
+    width: 100%; /* Make the image fill the entire width of its container */
+}
