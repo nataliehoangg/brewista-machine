@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="about_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+    <title>
+        About Us
+    </title>
+</head>
+
+<body>
+<!--navbar start-->
+<header>
+    <h1>BREWISTA</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="mechanical.html">Mechanical</a>
+        <a href="electrical.html">Electrical</a>
+        <a href="software.html">Software</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="about.html">About Us</a>
+    </nav>
+</header>
+<!--navbar end-->
+
+<!--content start-->
+<div style="margin-top: 60px; padding: 20px;">
+    <h1>About Us</h1>
+</div>
+
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f2f2f2;
+        }
+        .container {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-gap: 20px;
+          padding: 20px;
+        }
+        .member {
+          background-color: #fff;
+          border-radius: 10px;
+          overflow: hidden;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: box-shadow 0.3s ease;
+        }
+        .member:hover {
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .member img {
+          width: 100%;
+          height: auto;
+        }
+        .member-info {
+          padding: 20px;
+          text-align: center;
+        }
+        .member-info h2 {
+          margin-top: 0;
+        }
+        .member-info p {
+          margin-bottom: 10px;
+        }
+        .member-info a {
+          display: inline-block;
+          margin-right: 10px;
+          color: #333;
+          text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
+<div class="container">
+    <div class="member">
+        <img src="member1.jpg" alt="Member 1">
+        <div class="member-info">
+            <h2>John Doe</h2>
+            <p>Software Engineer</p>
+            <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="mailto:john@example.com">Email</a>
+            <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+    <div class="member">
+        <img src="member2.jpg" alt="Member 2">
+        <div class="member-info">
+            <h2>Jane Smith</h2>
+            <p>Graphic Designer</p>
+            <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="mailto:jane@example.com">Email</a>
+            <a href="https://www.linkedin.com/in/janesmith" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+    <!-- Add more members as needed -->
+</div>
+
+</body>
+</html>
+
+<!--content end-->
+
+<!--footer start-->
+<footer>
+    <p>Alpha Iota Pledge Class</p>
+</footer>
+<!--footer end-->
 </body>
 </html>
