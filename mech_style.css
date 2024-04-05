@@ -49,14 +49,14 @@ footer {
 }
 
 .container {
-    display: flex; /* Use flexbox to arrange items horizontally */
-    justify-content: space-between; /* Space items evenly along the main axis */
+    display: flex;
+    justify-content: space-between;
 }
 
 .item {
-    width: 30%; /* Set the width of each item */
+    width: 32.5%;
 }
 
 .image img {
-    width: 100%; /* Make the image fill the entire width of its container */
+    width: 100%;
 }
