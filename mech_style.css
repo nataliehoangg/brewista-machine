@@ -1,62 +1,95 @@
+/*header start*/
 body {
     background-color: #b4eeffb6;
     font-family: 'Lexend Exa', sans-serif;
     margin: 0;
     padding: 0;
-    position: relative;
+    padding-top: 80px; /* Add padding-top to body to account for fixed header */
 }
 
-header {
+.header {
     background-color: #ffffff8a;
-    color: #525252;
-    padding: 10px 0px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    line-height: 1;
-}
-
-
-nav {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    align-items: center;
+    color: #525252;
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%; 
+    top: 0; /* Set header to the top of the page */
+    z-index: 1000; /* Ensure the header is above other content */
 }
 
-nav a {
+.header-text {
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 800px; /* Limit the width of the header text */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
     color: rgb(82, 82, 82);
     text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 9px;
     background-color: #ffffff;
 }
 
-nav a:hover {
+.nav a:hover {
     background-color: #adadad;
 }
+/* header end*/
 
-footer {
-    background-color: #ffffff90;
-    color: #525252;
+
+.title_second {
+    margin-top: 100px; /* Add margin-top to title_second to account for fixed header */
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
-
 .container {
-    display: flex; /* Use flexbox to arrange items horizontally */
-    justify-content: space-between; /* Space items evenly along the main axis */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .item {
-    width: 30%; /* Set the width of each item */
+    border-radius: 9px;
+    background-color: white;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .image img {
-    width: 100%; /* Make the image fill the entire width of its container */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #ffffff90;
+    color: #525252;
+    text-align: center;
+    padding: 10px;
 }
