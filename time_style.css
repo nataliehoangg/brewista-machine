@@ -9,6 +9,21 @@ body {
 
 .header {
     background-color: #ffffff8a;
+<<<<<<< HEAD
+=======
+    color: #525252;
+    padding: 10px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 1;
+    z-index: 9999;
+}
+
+nav {
+>>>>>>> 13ec8daa3d5d022ca002b242ba32b168b053fadd
     display: flex;
     align-items: center;
     color: #525252;
@@ -51,8 +66,41 @@ body {
 }
 /* HEADER END */
 
+<<<<<<< HEAD
 /* FOOTER START */
 .footer {
+=======
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 170 px auto 0;
+}
+
+.container {
+    padding: 10px 50 px;
+    position: relative;
+    width: 50%;
+    background: #b8eafa
+}
+
+.text-box {
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 50%;
+}
+
+footer {
+>>>>>>> 13ec8daa3d5d022ca002b242ba32b168b053fadd
     background-color: #ffffff90;
     color: #525252;
     text-align: center;
