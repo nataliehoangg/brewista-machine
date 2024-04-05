@@ -1,0 +1,111 @@
+body {
+    background-color: #b4eeffb6;
+    font-family: 'Lexend Exa', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+header {
+    background-color: #ffffff8a;
+    color: #525252;
+    padding: 10px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 1;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(82, 82, 82);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #adadad;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.member {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.member:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+}
+
+.member-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.member-info h2 {
+  margin-top: 0;
+}
+
+.member-info p {
+  margin-bottom: 10px;
+}
+
+.member-info .bio {
+  font-size: 12px;
+}
+
+.member-info .major {
+  font-size: 12px;
+}
+
+.member-info a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.member-info a.email {
+  color: #0077b5;
+}
+
+.member-info a.linkedin {
+  color: #0077b5;
+}
+
+footer {
+    background-color: #ffffff90;
+    color: #525252;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
