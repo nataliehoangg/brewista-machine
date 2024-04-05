@@ -57,5 +57,62 @@ body {
     color: #525252;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 /* FOOTER END */
+
+.title-container {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.title-big {
+    font-size: 25px;
+    font-weight: bold;
+    animation: hoverAnimation 2s infinite alternate; 
+}
+
+.title-big span {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+@keyframes hoverAnimation {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* carousel stuff */
+.carousel {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide {
+    min-width: 100%;
+    flex: 0 0 auto;
+}
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* carousel stuff */

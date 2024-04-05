@@ -65,10 +65,9 @@ body {
     margin-top: 100px; /* Add margin-top to title_second to account for fixed header */
     text-align: center;
 }
-
 .container {
     display: flex;
-    flex-direction: row; /* Change flex-direction to row */
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
     padding: 20px;
@@ -87,7 +86,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .image img {
     width: 100%;
     margin-bottom: 10px;
@@ -97,4 +95,3 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
-
