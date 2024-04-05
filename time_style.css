@@ -6,6 +6,35 @@ body {
     position: relative;
 }
 
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100 px auto;
+}
+
+.container {
+    padding: 10px 50 px;
+    position: relative;
+    width: 50%;
+    background: #b8eafa
+}
+
+.text-box {
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 50%;
+}
+
 header {
     background-color: #ffffff8a;
     color: #525252;
@@ -17,7 +46,6 @@ header {
     left: 0;
     line-height: 1;
 }
-
 
 nav {
     display: flex;
