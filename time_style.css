@@ -92,6 +92,29 @@ body {
     clear: both;
 }
 
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 180%;
+    background: #fff;
+    top 0;
+    left: 50%
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+    0% {
+        height: 0;
+    }
+
+    180% {
+        height: 180%
+    }
+}
+
 /* FOOTER START */
 .footer {
     background-color: #ffffff90;
