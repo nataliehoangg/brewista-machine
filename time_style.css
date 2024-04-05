@@ -9,23 +9,11 @@ body {
 .header {
     background-color: #ffffff8a;
     color: #525252;
-    padding: 10px 0px;
+    padding: 20px;
+    align-items: center;
     text-align: center;
     position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
-    line-height: 1;
-    z-index: 9999;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    color: #525252;
-    position: fixed;
-    text-align: center;
-    padding: 20px;
     box-sizing: border-box;
     width: 100%;
     top: 0;
@@ -34,8 +22,8 @@ nav {
 
 .header-text {
     margin: 0 auto;
-    width: 100%;
-    max-width: 800px;
+    width: 100%; 
+    max-width: 800px; /* Limit the width of the header text */
 }
 
 .title {
@@ -60,12 +48,7 @@ nav {
 .nav a:hover {
     background-color: #adadad;
 }
-
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 100px auto;
-}
+/* HEADER END */
 
 .container {
     padding: 20px;
@@ -109,9 +92,11 @@ nav {
     clear: both;
 }
 
+/* FOOTER START */
 .footer {
     background-color: #ffffff90;
     color: #525252;
     text-align: center;
     padding: 10px;
 }
+/* FOOTER END */
