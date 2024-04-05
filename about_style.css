@@ -100,12 +100,11 @@ nav a:hover {
   color: #0077b5;
 }
 
-footer {
-    background-color: #ffffff90;
-    color: #525252;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* FOOTER START */
+.footer {
+  background-color: #ffffff90;
+  color: #525252;
+  text-align: center;
+  padding: 10px;
 }
+/* FOOTER END */

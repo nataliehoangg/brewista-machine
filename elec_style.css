@@ -1,4 +1,4 @@
-/*header start*/
+/* HEADER START */
 body {
     background-color: #b4eeffb6;
     font-family: 'Lexend Exa', sans-serif;
@@ -49,7 +49,16 @@ body {
 .nav a:hover {
     background-color: #adadad;
 }
-/* header end*/
+/* HEADER END */
+
+/* FOOTER START */
+.footer {
+    background-color: #ffffff90;
+    color: #525252;
+    text-align: center;
+    padding: 10px;
+}
+/* FOOTER END */
 
 
 .title_second {
@@ -76,16 +85,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     box-sizing: border-box;
-}
-
-.footer {
-    background-color: #ffffff90;
-    color: #525252;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 

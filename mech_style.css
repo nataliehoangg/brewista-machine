@@ -1,4 +1,4 @@
-/*header start*/
+/* HEADER START */
 body {
     background-color: #b4eeffb6;
     font-family: 'Lexend Exa', sans-serif;
@@ -49,7 +49,16 @@ body {
 .nav a:hover {
     background-color: #adadad;
 }
-/* header end*/
+/* HEADER END */
+
+/* FOOTER START */
+.footer {
+    background-color: #ffffff90;
+    color: #525252;
+    text-align: center;
+    padding: 10px;
+}
+/* FOOTER END */
 
 
 .title_second {
@@ -85,11 +94,4 @@ body {
 .description {
     font-size: 16px;
     line-height: 1.5;
-}
-
-.footer {
-    background-color: #ffffff90;
-    color: #525252;
-    text-align: center;
-    padding: 10px;
 }
