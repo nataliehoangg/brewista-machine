@@ -57,14 +57,39 @@ body {
     text-align: center;
 }
 .container {
-    display: flex; /* Use flexbox to arrange items horizontally */
-    justify-content: space-between; /* Space items evenly along the main axis */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .item {
-    width: 30%; /* Set the width of each item */
+    border-radius: 9px;
+    background-color: white;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .image img {
-    width: 100%; /* Make the image fill the entire width of its container */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #ffffff90;
+    color: #525252;
+    text-align: center;
+    padding: 10px;
 }
