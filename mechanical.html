@@ -64,5 +64,35 @@
         <p>Alpha Iota Pledge Class</p>
     </footer>
     FOOTER END -->
+
+        <!-- ice cube attempt -->
+    </div>
+    <div class="wrapper" id="iceCubeWrapper">
+      <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+   </div>
+  <script>
+      function createCube() {
+      const cube = document.createElement('div');
+      cube.classList.add('cube');
+      cube.style.left = `${Math.random() * window.innerWidth}px`;
+      cube.style.animationDuration = `20s`;
+      document.body.appendChild(cube);
+      setTimeout(() => {
+          cube.remove(); 
+      }, parseInt(cube.style.animationDuration) * 1000);
+  }
+
+  setInterval(createCube, 1000);
+  </script>
+          <!-- ice cube attempt-->
 </body>
 </html>
