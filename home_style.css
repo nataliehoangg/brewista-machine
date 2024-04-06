@@ -55,6 +55,34 @@ body {
 }
 /* HEADER END */
 
+ .carousel-container {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .carousel {
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+
+  .carousel img {
+    width: calc((100% - 20px) / 3);
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% - 10px));
+    }
+  }
+
 /* FOOTER START */
 .footer {
     background-color: #ffffff90;
