@@ -29,7 +29,7 @@
                 <img src="./images1/arduino.png">
             </div>
             <div class="description">
-                <p>The Arduino board outputs 5V and 40mA per GPIO pin, which is insufficient for the Brewista's need of 12V and 1.4A. To address this, we need to use external components to boost the voltage and current.</p>
+                <p>The Arduino board outputs 5V and 40mA per GPIO pin, which is insufficient for the Brewista's need of 12V and 1.4A. To address this, we need to use external components such as a motor shield to boost the voltage and current.</p>
             </div>
         </div>
         <div class="item">
@@ -42,10 +42,21 @@
         </div>
         <div class="item">
             <div class="image">
-                <img src="your-image3.jpg" alt="Your Image 3">
+                <img src="./images1/arduino.jpeg" alt="">
             </div>
             <div class="description">
-                <p>Description for Image 3 goes here.</p>
+                <p>This is the adjustRecipe function that is used when the user wants to customize their drinks. We keep the information of the user’s customized drink in a length 4 array of doubles called recipe consisting of:</p>
+            </div>
+
+        <div class="code" style="color:#525252">
+            <p>{ratio of cherry syrup,</p>
+                <p>ratio of lime syrup,</p>
+                <p>ratio of vanilla syrup,</p>
+                <p>whether or not to add half and half via boolean int}</p>
+        </div>
+
+            <div class="description">
+                <p>The pumpIndex is the pump we are adjusting, ex. pumpIndex = 0 means that we are adjusting the ratio of cherry syrup. Increment is a double of the ratio the user would like to add to the recipe.</p>
             </div>
         </div>
     </div>

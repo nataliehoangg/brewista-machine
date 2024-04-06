@@ -89,7 +89,7 @@ body {
     background-color: #ffffff99;
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
-    box-shadow: 1px 6px 8px #ffffff80;
+    box-shadow: 3px 10px 15px #ffffff80;
     padding: 20px;
     box-sizing: border-box;
     transition: transform 0.5s; /* Add transition for smooth hover effect */

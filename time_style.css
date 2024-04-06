@@ -61,7 +61,7 @@ body {
     width: 45%;
     background: #f9f9f9;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 10px 15px #ffffff80;
     margin-bottom: 20px;
     transition: transform 0.5s; /* Add transition for smooth hover effect */
 }
