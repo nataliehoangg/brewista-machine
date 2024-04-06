@@ -80,22 +80,34 @@ body {
     margin: 0 auto;
 }
 
+.item:hover {
+  transform: translateY(-15px); /* Move container up on hover */
+}
+
 .item {
     border-radius: 9px;
-    background-color: white;
+    background-color: #ffffff99;
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     box-sizing: border-box;
+    transition: transform 0.5s; /* Add transition for smooth hover effect */
 }
 
 .image img {
     width: 100%;
     margin-bottom: 10px;
+    animation: hoverAnimation 2s infinite alternate; 
+}
+
+@keyframes hoverAnimation {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 
 .description {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
 }

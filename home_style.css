@@ -97,27 +97,6 @@ body {
     margin-top: 20px; /* Adjust as needed */
 }
 
-.imageContainer{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    width: 200%;
-}
-
-.imageContainer .image{
-    height: 275px; /* Adjust as needed */
-    width: 100%;
-    background-size: cover;
-}
-
-.image:nth-child(odd){
-    background-image: url('https://images.unsplash.com/photo-1489183988443-b37b7e119ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80');
-}
-
-.image{
-    background-image: url('https://images.unsplash.com/photo-1538947151057-dfe933d688d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
-}
-
 @keyframes hoverAnimation {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
