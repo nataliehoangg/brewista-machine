@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 50px;
-    padding-bottom: 70px;
     position: relative;
 }
 
@@ -57,10 +56,13 @@ body {
 
 /* FOOTER START */
 .footer {
-    background-color: #ffffff90;
-    color: #525252;
-    text-align: center;
-    padding: 10px;
+  background-color: #ffffff90;
+  color: #525252;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 /* FOOTER END */
 
@@ -112,11 +114,17 @@ body {
     text-align: center;
 }
 
+.wrapper{
+  overflow: hidden;
+  margin-top: 20px;
+  max-height: calc(100vh - 800px);
+  overflow-y: auto;
+}
+
 /* ice cube attempt */
 .wrapper {
   position: absolute;
   width: 100%;
-  height: 100vh;
   overflow: hidden;
   z-index: -1;
 }

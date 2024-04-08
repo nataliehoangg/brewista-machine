@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 50px;
-    padding-bottom: 70px;
     position: relative;
 }
 
@@ -124,18 +123,17 @@ body {
     transform: translateY(-15px); 
 }
 
-/* FOOTER START 
+/* FOOTER START */ 
 .footer {
     background-color: #ffffff90;
     color: #525252;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
- FOOTER END */
+ /* FOOTER END */
 
  /* ice cube attempt */
  .wrapper {
@@ -182,3 +180,10 @@ body {
     z-index: 1;
 }
 /* ice cube attempt */
+
+.wrapper{
+    overflow: hidden;
+    margin-top: 20px;
+    max-height: calc(100vh - 800px);
+    overflow-y: auto;
+  }

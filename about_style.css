@@ -4,8 +4,8 @@ body {
     font-family: 'Lexend Exa', sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 50px;
     padding-bottom: 70px;
+    padding-top: 50px;
     position: relative;
 }
 
@@ -115,17 +115,23 @@ body {
   color: #0077b5;
 }
 
-/* FOOTER START 
+/* FOOTER START */
 .footer {
   background-color: #ffffff90;
   color: #525252;
   text-align: center;
   padding: 10px;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
 }
- FOOTER END */
+/* FOOTER END */
 
+
+.wrapper{
+  overflow: hidden;
+  margin-top: 20px;
+  max-height: calc(100vh - 800px);
+  overflow-y: auto;
+}
  

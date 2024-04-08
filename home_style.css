@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 50px;
-    padding-bottom: 70px;
     position: relative;
 }
 
@@ -88,17 +87,16 @@ body {
     background-color: #ffffff90;
     color: #525252;
     text-align: center;
-    position: fixed;
     padding: 10px;
     bottom: 0;
     left: 0;
     width: 100%;
 }
-/* FOOTER END */
+ /* FOOTER END */
 
 .title-container {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 40px;
     position: relative;
 }
 
@@ -106,6 +104,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     animation: hoverAnimation 2s infinite alternate; 
+    text-shadow: 5px 15px 20px #ffffff;
 }
 
 .title-big span {
@@ -121,8 +120,10 @@ body {
 }
 
 .wrapper{
-    overflow: hidden;
-    margin-top: 20px; 
+  overflow: hidden;
+  margin-top: 20px;
+  max-height: calc(100vh - 800px);
+  overflow-y: auto;
 }
 
 @keyframes hoverAnimation {
@@ -168,7 +169,7 @@ body {
   
   @keyframes animate {
     0% {
-        transform: translateY(-100vh);
+        transform: translateY(-170vh);
     }
     100% {
         transform: translateY(calc(100vh));
@@ -180,3 +181,13 @@ body {
     z-index: -1;
   }
   /* ice cube attempt */
+
+.gif-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.centered {
+    display: block;
+    margin: 0 auto;
+}
