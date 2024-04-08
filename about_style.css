@@ -137,3 +137,14 @@ body {
   overflow-y: auto;
 }
  
+.banner {
+  margin-top: 65px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
