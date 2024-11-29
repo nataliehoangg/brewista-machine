@@ -72,6 +72,7 @@ background-color: #ffffff;
 
 .title_second {
   margin-top: 100px;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.17);
   text-align: center;
 }
 .container {
