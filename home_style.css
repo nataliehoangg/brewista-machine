@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-background-color: #ffffff8a;
+background-color: #ffffff;
 display: flex;
 align-items: center;
 color: #525252;
@@ -25,13 +25,14 @@ z-index: 1000;
 
 .header-text {
 margin: 0 auto;
+color: #9de8ffdf;
 width: 100%; 
 max-width: 800px; 
 }
 
 .title {
 font-weight: bold;
-font-size: 36px;
+font-size: 50px;
 margin-bottom: 10px;
 }
 
@@ -40,7 +41,7 @@ margin-bottom: 10px;
 }
 
 .nav a {
-color: rgba(67, 67, 67, 0.682); 
+color: #9de8ffdf; 
 text-decoration: none;
 margin-right: 10px;
 padding: 8px 15px;
@@ -54,6 +55,20 @@ background-color: #ffffff;
 }
 /* HEADER END */
 
+/* FOOTER START */
+.footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #9de8ffdf;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+/* FOOTER END */
+
 .carousel-container {
   width: 100%; /* Adjust width as needed */
   overflow: hidden;
@@ -63,7 +78,7 @@ background-color: #ffffff;
 
 .carousel {
   display: flex;
-  animation: scroll 10s linear infinite;
+  animation: scroll 8s ease-in-out infinite;
 }
 
 .carousel img {
@@ -82,18 +97,6 @@ background-color: #ffffff;
   }
 }
 
-/* FOOTER START */
-.footer {
-  background-color: #ffffff90;
-  color: #525252;
-  text-align: center;
-  padding: 10px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-/* FOOTER END */
-
 .title-container {
   text-align: center;
   margin-top: 40px;
@@ -102,9 +105,10 @@ background-color: #ffffff;
 
 .title-big {
   font-size: 25px;
+  color: white;
   font-weight: bold;
   animation: hoverAnimation 2s infinite alternate; 
-  text-shadow: 5px 15px 20px #ffffff;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.17);
 }
 
 .title-big span {
@@ -115,6 +119,8 @@ background-color: #ffffff;
 .description {
   font-size: 18px;
   text-align: center;
+  color: #f8f8f8;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.115);
   padding-left: 300px;
   padding-right: 300px;
 }
@@ -127,7 +133,7 @@ background-color: #ffffff;
 
 .carousel img {
   box-shadow: 3px 10px 15px #ffffff80;
-  height: 30%;
+  height: auto; width: auto; max-height: 70vh;
   width: 30%;
 }
 
@@ -181,7 +187,7 @@ background-color: #ffffff;
 
 .gif-container {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .centered {

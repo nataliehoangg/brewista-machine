@@ -1,150 +1,152 @@
 /* HEADER START */
 body {
-    background-color: #b4eeffb6;
-    font-family: 'Lexend Exa', sans-serif;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 70px;
-    padding-top: 50px;
-    position: relative;
+  background-color: #b4eeffb6;
+  font-family: 'Lexend Exa', sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  position: relative;
 }
 
 .header {
-  background-color: #ffffff8a;
-  display: flex;
-  align-items: center;
-  color: #525252;
-  position: fixed;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  width: 100%; 
-  top: 0; 
-  z-index: 1000; 
+background-color: #ffffff;
+display: flex;
+align-items: center;
+color: #525252;
+position: fixed;
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+width: 100%; 
+top: 0; 
+z-index: 1000; 
 }
 
 
 .header-text {
-  margin: 0 auto;
-  width: 100%; 
-  max-width: 800px; 
+margin: 0 auto;
+color: #9de8ffdf;
+width: 100%; 
+max-width: 800px; 
 }
 
 .title {
-  font-weight: bold;
-  font-size: 36px;
-  margin-bottom: 10px;
+font-weight: bold;
+font-size: 50px;
+margin-bottom: 10px;
 }
 
 .nav {
-    text-align: center;
+  text-align: center;
 }
 
 .nav a {
-  color: rgba(67, 67, 67, 0.682); 
-  text-decoration: none;
-  margin-right: 10px;
-  padding: 8px 15px;
-  border: 2px solid #b4eeff9b; 
-  border-radius: 9px;
-  background-color: #b4eeff60
+color: #9de8ffdf; 
+text-decoration: none;
+margin-right: 10px;
+padding: 8px 15px;
+border: 2px solid #b4eeff9b; 
+border-radius: 9px;
+background-color: #b4eeff60
 }
 
 .nav a:hover {
-  background-color: #ffffff; 
+background-color: #ffffff; 
 }
 /* HEADER END */
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-.member {
-  background-color: #fff;
-  border-radius: 10px;
-  transition: transform 0.5s; 
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
-
-.member:hover {
-  box-shadow: 3px 10px 15px #ffffff80;
-  transform: translateY(-15px);
-}
-
-.member img {
-  width: 100%;
-  height: auto;
-}
-
-.member-info {
-  padding: 20px;
-  text-align: center;
-}
-
-.member-info h2 {
-  margin-top: 0;
-}
-
-.member-info p {
-  margin-bottom: 10px;
-}
-
-.member-info .bio {
-  font-size: 12px;
-}
-
-.member-info .major {
-  font-size: 12px;
-}
-
-.member-info a {
-  display: inline-block;
-  margin-right: 10px;
-  color: #333;
-  text-decoration: none;
-}
-
-.member-info a.email {
-  color: #0077b5;
-}
-
-.member-info a.linkedin {
-  color: #0077b5;
-}
-
 /* FOOTER START */
 .footer {
-  background-color: #ffffff90;
-  color: #525252;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #9de8ffdf;
   text-align: center;
-  padding: 10px;
+  font-size: 14px;
+  padding: 8px 0;
+  position: relative;
   bottom: 0;
-  left: 0;
   width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
 /* FOOTER END */
 
+.container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+grid-gap: 20px;
+padding: 20px;
+}
+
+.member {
+background-color: #fff;
+border-radius: 10px;
+transition: transform 0.5s; 
+overflow: hidden;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+transition: box-shadow 0.3s ease;
+}
+
+.member:hover {
+box-shadow: 3px 10px 15px #ffffff80;
+transform: translateY(-10px) scale(1.03);
+}
+
+.member img {
+width: 100%;
+height: auto;
+}
+
+.member-info {
+padding: 20px;
+text-align: center;
+}
+
+.member-info h2 {
+margin-top: 0;
+}
+
+.member-info p {
+margin-bottom: 10px;
+}
+
+.member-info .bio {
+font-size: 12px;
+}
+
+.member-info .major {
+font-size: 12px;
+}
+
+.member-info a {
+display: inline-block;
+margin-right: 10px;
+color: #333;
+text-decoration: none;
+}
+
+.member-info a.email {
+color: #0077b5;
+}
+
+.member-info a.linkedin {
+color: #0077b5;
+}
+
 
 .wrapper{
-  overflow: hidden;
-  margin-top: 20px;
-  max-height: calc(100vh - 800px);
-  overflow-y: auto;
+overflow: hidden;
+margin-top: 20px;
+max-height: calc(100vh - 800px);
+overflow-y: auto;
 }
- 
+
 .banner {
-  margin-top: 65px;
-  width: 100%;
-  overflow: hidden;
+margin-top: 65px;
+width: 100%;
+overflow: hidden;
 }
 
 .banner img {
-  width: 100%;
-  height: auto;
-  display: block;
+width: 100%;
+height: auto;
+display: block;
 }
