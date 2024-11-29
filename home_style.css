@@ -74,6 +74,7 @@ background-color: #ffffff;
   overflow: hidden;
   position: relative;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .carousel {
@@ -132,7 +133,7 @@ background-color: #ffffff;
 }
 
 .carousel img {
-  box-shadow: 3px 10px 15px #ffffff80;
+  box-shadow: 3px 10px 15px #ffffff;
   height: auto; width: auto; max-height: 70vh;
   width: 30%;
 }
